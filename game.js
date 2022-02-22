@@ -73,7 +73,11 @@ function animatePress(currentColor) {
 //makes game start from any key click
 $(document).keypress(function() {
   nextSequence();
-})
+});
+
+$("h1").click(function() {
+  nextSequence();
+});
 
 
 //checks userchosenpattern against gamePattern
