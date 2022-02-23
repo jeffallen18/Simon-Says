@@ -50,7 +50,7 @@ $(".btn").click(function() {
 
 function gameOver() {
   playSound("wrong");
-  $("h1").text("Game Over, Press Any Key to Restart")
+  $("h1").text("You made it to level " + level + ". Press Any Key to Restart")
   $("body").addClass("game-over");
 
   setTimeout(function() {
